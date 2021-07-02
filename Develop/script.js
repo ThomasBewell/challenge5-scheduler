@@ -13,11 +13,11 @@ $(document).ready(function() {
         for (let i = 0; i < 12; i++) {
             
             //create row divs
-            const rowDiv = $("<div>").addClass("row").attr("id", "row${i}");
+            const rowDiv = $("<div>").addClass("row").attr("id", `row${i}`);
             //create hour divs
-            const hourDiv = $("<div>").addClass("col-1 hour time-block d-flex align-items-center justify-content-center").text(date.format("H a")).attr("id", "hour${i}");
+            const hourDiv = $("<div>").addClass("col-1 hour time-block d-flex align-items-center justify-content-center").text(date.format("H a")).attr("id", `hour${i}`);
             //create text box divs
-            const textDiv = $("<textarea>").addClass("col-10 time-block text-box save-block").attr("id", "text${i}");
+            const textDiv = $("<textarea>").addClass("col-10 time-block text-box save-block").attr("id", `text${i}`);
             //create save button
             const saveDiv = $("<div>").addClass("col-1 d-flex align-items-center justify-content-center saveBtn save-block");
             let saveBtn = $("<button>").addClass("btn fas fa-save fa-lg save-button").attr("id", i).attr("title", "Save");
