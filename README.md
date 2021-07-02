@@ -4,7 +4,7 @@
 
 ## Purpose
 
-This is the 5th challenge assignment for my coding boot camp. For it I wrote the fucntionality for a work day schedluer applicaiton using JavaScript (HTML and CSS were provided).
+This is the 5th challenge assignment for my coding boot camp. For it I wrote the functionality for a work day scheduler application using JavaScript (HTML and CSS were provided).
 
 ## Screenshot
 
